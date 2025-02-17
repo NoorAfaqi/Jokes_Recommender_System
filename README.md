@@ -1,12 +1,12 @@
-# Jokes_Reccomender_System
+# Jokes_Recommender_System
 
-This repository contains code for a generating recommendations according to top-k similar users.
+This repository contains code for generating recommendations according to top-k similar users.
 
-Process includes two main tasks:
+The process includes two main tasks:
 1. **Text Preprocessing**: Cleaning and preparing textual data for further analysis.
 2. **Identifying Top K Users**: Analyzing user data using PySpark to identify the top K users based on specific metrics.
 
-## Architechure Diagram:
+## Architecture Diagram:
 
 ![Architechure Diagram](https://github.com/user-attachments/assets/1d73866a-ddcc-48ff-a958-3906aeb2ddfb)
 
@@ -21,7 +21,7 @@ The project includes the following Jupyter Notebook files:
   - Removing outliers.
   - Scaling values to a specific range.
 
-- **`Top_K_Users.ipynb`**: Contains the implementation for analyzing user data with PySpark and generate recommendations as:
+- **` Top_K_Users.ipynb`**: Contains the implementation for analyzing user data with PySpark and generate recommendations as:
   - Splitting dataset into test and train.
   - Compute similarities.
   - Test against test data.
@@ -35,7 +35,7 @@ The project includes the following Jupyter Notebook files:
 
 ## Contributing
 
-If you'd like to contribute to this project, please fork the repository and submit a pull request. For major changes, open an issue first to discuss what you would like to change.
+If you want to contribute to this project, please fork the repository and submit a pull request. Open an issue first for major changes to discuss what you would like to change.
 
 
 For questions or feedback, please contact noorafaqi363@gmail.com
